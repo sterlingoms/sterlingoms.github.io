@@ -1,0 +1,43 @@
+name: SterlingOMS.com - Unofficial Sterling Order Management System blog
+description: SterlingOMS.com - Unofficial Sterling Order Management System blog
+meta_description: "SterlingOMS.com - Unofficial Sterling Order Management System llog"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.png'
+paginate: 6
+title: SterlingOMS.com - Unofficial Sterling Order Management System llog
+email: admin@SterlingOMS.com
+description: >- # this means to ignore newlines until "baseurl:"
+  SterlingOMS.com - Sterling Order Management System - Unofficial blog with news, articles and more to improve your Sterling OMS experience.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://SterlingOMS.com"
+twitter_username: sterlingoms
+github_username: sterlingoms
+google_analytics: 'UA-131361671-2'
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
