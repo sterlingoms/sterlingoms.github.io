@@ -21,7 +21,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
-    
+  - jekyll-sitemap
+ 
 # Archives
 jekyll-archives:
   enabled:
