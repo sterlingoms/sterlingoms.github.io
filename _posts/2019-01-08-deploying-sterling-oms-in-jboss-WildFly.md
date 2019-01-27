@@ -13,7 +13,7 @@ WildFly uses JBoss Modules and is open source unlike Jboss
 
 To deploy in WildFly build the Sterling OMS application as you would build for jboss. e.g.
 
-```.\buildear.cmd -Dappserver=websphere -Dwarfiles=smcfs,sbc -Dearfile=smcfs.ear -Dnowebservice=true -Dsupport.multi.war=true -Dnodocear=true -Dasyncejb=false create-ear```
+```.\buildear.cmd -Dappserver=jboss -Dwarfiles=smcfs -Dearfile=smcfs.ear -Dnowebservice=true -Dsupport.multi.war=true -Dnodocear=true -Dasyncejb=false create-ear```
 
 Once the ear is build - Unzip the ear and extract the smcfs.war directory to ```standalone\deployments\smcfs.war``` directory
 
