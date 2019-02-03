@@ -18,4 +18,4 @@ Post installation validate the list of Organizations created with the SQL query
 select * from yfs_organization;
 ```
 
-Additional organization installed as part of the reference implementation should be retrieved in the query results.
+Additional organizations installed as part of the reference implementation should be retrieved in the query results.
